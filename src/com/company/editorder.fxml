@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="1180.0">
+         <children>
+            <Text layoutX="489.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Order" textAlignment="CENTER" wrappingWidth="224.6708984375">
+               <font>
+                  <Font size="43.0" />
+               </font>
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#9a1616" />
+                        <Stop color="#89ff1b" offset="0.4803921568627451" />
+                        <Stop color="#9a1616" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+            <Button layoutX="33.0" layoutY="27.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="92.0" text="BACK" />
+            <Button layoutX="1041.0" layoutY="27.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="125.0" text="SAVE" />
+            <TextField layoutX="53.0" layoutY="171.0" promptText="IDCard Order" />
+            <TextField layoutX="278.0" layoutY="171.0" promptText="ID Room" />
+            <TextField layoutX="497.0" layoutY="171.0" promptText="Check In" />
+            <TextField layoutX="497.0" layoutY="228.0" promptText="IDCard Check in" />
+            <TextField layoutX="723.0" layoutY="171.0" promptText="Check Out" />
+            <TextField layoutX="723.0" layoutY="228.0" promptText="IDCard Check out" />
+            <TextField layoutX="933.0" layoutY="171.0" promptText="Deposite" />
+            <TextArea layoutX="55.0" layoutY="297.0" prefHeight="444.0" prefWidth="1068.0" promptText="Note">
+               <font>
+                  <Font name="Consolas Italic" size="31.0" />
+               </font>
+            </TextArea>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
